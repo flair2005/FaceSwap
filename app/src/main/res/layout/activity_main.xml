@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dongnao.faceswap.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="switchCamera"
+            android:text="切换摄像头"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="startSwap"
+            android:text="开启变脸"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="stopSwap"
+            android:text="关闭变脸"/>
+    </LinearLayout>
+
+    <com.dongnao.faceswap.DisplaySurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

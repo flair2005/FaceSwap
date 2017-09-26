@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FaceSwap.iml" filepath="$PROJECT_DIR$/FaceSwap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facealbum/facealbum.iml" filepath="$PROJECT_DIR$/facealbum/facealbum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facedetection/facedetection.iml" filepath="$PROJECT_DIR$/facedetection/facedetection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facetrack/facetrack.iml" filepath="$PROJECT_DIR$/facetrack/facetrack.iml" />
+    </modules>
+  </component>
+</project>
