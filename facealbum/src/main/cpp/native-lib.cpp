@@ -124,6 +124,8 @@ Java_com_dongnao_facealbum_MainActivity_process(JNIEnv *env, jobject instance, j
         goto end;
     }
 
+
+
     //直接画了 不传到java了
     cvtColor(src, src, CV_BGR2RGBA);
     resize(src, src, Size(windowBuffer.width, windowBuffer.height));
