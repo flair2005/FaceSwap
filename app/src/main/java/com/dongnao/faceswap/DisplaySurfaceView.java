@@ -17,7 +17,6 @@ import javax.microedition.khronos.opengles.GL;
 
 /**
  * Created by xiang on 2017/7/9.
- * 动脑学院 版权所有
  */
 
 public class DisplaySurfaceView extends SurfaceView implements SurfaceHolder.Callback, Camera

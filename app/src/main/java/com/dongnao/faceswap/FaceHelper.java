@@ -4,7 +4,6 @@ import android.view.Surface;
 
 /**
  * Created by xiang on 2017/7/9.
- * 动脑学院 版权所有
  */
 
 public class FaceHelper {
